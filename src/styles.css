@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', 'Montserrat', sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   line-height: 2.2;
   font-size: 0.875rem;
+  /* background-image: url(./pxr.jpg); */
 }
 
 ul {
@@ -23,9 +24,9 @@ a {
 }
 
 nav {
-  background: #F6F5F2;
-  box-shadow: 0 5px 15px #2882cc;
-  background-image: url("./image.jpeg");
+  background: #f6f5f2;
+  background-image: url(./peak.jpg);
+  box-shadow: 0 5px 15px powderblue;
 }
 
 .menu a {
@@ -39,7 +40,7 @@ nav {
 }
 
 .menu a:hover {
-  color: #5BBCFF;
+  color: whitesmoke;
   font-weight: bold;
   padding-left: 1.5rem;
 }
@@ -55,13 +56,13 @@ nav {
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #1C1678;
+  color: #1c1678;
 }
 
 .nav-h1 {
   font-size: 1.5rem;
   margin: 0;
-  color: #1C1678;
+  color: #1c1678;
 }
 
 i {
@@ -85,20 +86,20 @@ div {
 }
 
 .counter-div {
-  background-image: url("./image.jpeg");
   display: flex;
   flex-direction: column;
   width: 42rem;
-  border: 1px solid #9ab8e6;
+  border: 1px solid #eee;
   padding: 1rem;
-  background-color: #E1AFD1;
-  color: #4b66b1;
+  background-color: #ca8787;
+  background-image: url("./peak.jpg");
+  color: #fff;
   text-align: center;
   border-radius: 5px;
-  box-shadow: 0 5px 15px #612158;
+  box-shadow: 0 5px 15px powderblue;
 }
 
-.counter-div>* {
+.counter-div > * {
   margin-bottom: 2rem;
 }
 
@@ -120,16 +121,19 @@ div {
 }
 
 button.subtract {
-  background-color: #EAD8C0;
+  background-color: #d18f8f;
+  border: 1px solid white;
 }
 
 button.reset {
-  background-color: #EAD8C0;
+  background-color: #ca8787;
   color: #1e8cfa;
+  border: 1px solid white ;
 }
 
 button.add {
-  background-color: #EAD8C0;
+  background-color: #ca8787;
+  border: 1px solid white;
 }
 
 .uphand-styles {
@@ -137,13 +141,13 @@ button.add {
 }
 
 .downhand-styles {
-  color: orangered;
+  color: #cf1c67;
 }
 
 @media (min-width: 800px) {
   .nav-main {
     max-width: 95%;
-    margin: 0 .2rem 0 .2rem;
+    margin: 0 0.2rem 0 0.2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
